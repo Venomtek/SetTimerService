@@ -19,3 +19,6 @@ Tuning:
 Registry values are located at HKLM:SYSTEM\CurrentControlSet\Services\SetTimerService\Parameters
 
 TimerResolution: Dword - Desired timer resolution in 100 ns quanta.
+
+Note:
+Apparently, timer setting only works with native VMWare virtualization interface as opposed to Hyper-V based one enabled by default in the latest Windows versions.
